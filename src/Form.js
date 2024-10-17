@@ -34,9 +34,9 @@ function Form() {
     };
 
     return (
-        <div>
+        <div className="'title">
+            <h2>Formulaire CV</h2>
             <form>
-                <h2>Formulaire CV</h2>
                 <label className="custom-file-label" htmlFor="profilePic">
                         Upload Profile Picture
                     <input type="file" name="profilePic" id="profilePic"  onChange={handleFileChange} />

@@ -1,21 +1,10 @@
 
-#app-container {
-  max-width: 800px;
-  margin: 40px auto;
-  padding: 20px;
-  background-color: #fff;
-  border: 1px solid #ddd;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-
-
 #cv-preview {
   margin-top: 20px;
   padding: 20px;
   border: 1px solid #ddd;
   background-color: #fff;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 0 10px rgba(255, 255, 255, 0.1);
 }
 
 
@@ -27,6 +16,7 @@ button {
   border: none;
   border-radius: 5px;
   cursor: pointer;
+  font-size: 15px;
 }
 
 button:hover {
